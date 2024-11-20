@@ -1,8 +1,3 @@
-// app/dashboard/customers/page.tsx
-import React from 'react';
-
-const CustomersPage = () => {
-    return <div>Customers</div>;
-};
-
-export default CustomersPage;
+export default function page() {
+    return <p>Dashboard Page</p>;
+}
